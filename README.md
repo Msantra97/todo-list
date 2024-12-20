@@ -1,1 +1,1 @@
-# todo list with add and delete button
+# create a todo list using js with add and delete features
