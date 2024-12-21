@@ -1,0 +1,30 @@
+body{
+   background-color: lightpink;
+   text-align: center;
+}
+h1{
+    color:rgb(182, 18, 197);
+    text-decoration: 1px solid underline;
+
+}
+
+input{
+    height:25px;
+    width: auto;
+    border:1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+button{
+    color:black;
+    background-color:lightcoral;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 25px;
+    cursor: pointer;
+    
+}
+ul{
+    text-align: left;
+}
