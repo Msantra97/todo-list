@@ -1,16 +1,16 @@
 body{
-   background-color: lightpink;
+   background-color: #FEFBD8;
    text-align: center;
 }
 h1{
-    color:rgb(182, 18, 197);
+    color:#987D9A;
     text-decoration: 1px solid underline;
 
 }
 
 input{
     height:25px;
-    width: auto;
+    width: 300px;
     border:1px solid black;
     border-radius: 5px;
     outline: none;
@@ -18,13 +18,69 @@ input{
 
 button{
     color:black;
-    background-color:lightcoral;
+    background-color:#BB9AB1;
     border: 1px solid black;
     border-radius: 4px;
     height: 25px;
     cursor: pointer;
+    margin: 0px 0px 2px 25px;
     
 }
-ul{
-    text-align: left;
+
+
+ul {
+    list-style: none;
+    padding: 0;
 }
+
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #EECEB9;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+
+input[type="checkbox"].check {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    accent-color: #000000; 
+    cursor: pointer;
+}
+
+
+li span {
+    flex: 1;
+    font-size: 16px;
+}
+
+
+.delete {
+    height: 30px;
+    padding: 6px 12px;
+    background-color: #BB9AB1;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.delete:hover {
+    background-color: #e60000;
+}
+
+
+input[type="checkbox"].check:checked + span {
+    text-decoration: line-through;
+    color: darkgrey;
+}
+
+

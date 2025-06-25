@@ -1,1 +1,2 @@
-# create a todo list using js with add and delete features
+# create a todo list using javaScript with add and delete features
+# add a checkbox with toggle features
